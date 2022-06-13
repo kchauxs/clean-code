@@ -37,8 +37,8 @@
 })();
 
 /* (() => {
-  //* Aplicar el principio de responsabilidad única
-  //* Priorizar la composición frente a la herencia
+  // Apply the single responsibility principle
+  // Prioritize composition over inheritance
 
   type HtmlType = "input" | "select" | "textarea" | "radio";
 

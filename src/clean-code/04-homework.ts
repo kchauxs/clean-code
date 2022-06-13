@@ -1,5 +1,5 @@
 (() => {
-  // Resolver sin la triple condicional dentro del if
+  //Solve without the triple conditional inside the if
   // includes? arrays?
   function isRedFruit(fruit: string): boolean {
     const redFruits = ["manzana", "cereza", "ciruela"];
@@ -34,7 +34,6 @@
     // }
   }
 
-  // Simplificar esta función
   let isFirstStepWorking = true;
   let isSecondStepWorking = true;
   let isThirdStepWorking = true;

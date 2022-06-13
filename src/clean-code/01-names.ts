@@ -1,6 +1,6 @@
 (() => {
-  // Ejemplo
-  // Archivos a evaluar - files to evaluate (Eliminar comentario)
+  // Example
+  // Files to evaluate - files to evaluate (Remove comment)
   const filesToEvaluate = [
     { id: 1, flagged: false },
     { id: 2, flagged: false },
@@ -10,7 +10,7 @@
     { id: 7, flagged: true },
   ];
 
-  // Archivos marcados para borrar - files to delete (Eliminar comentario)
+  // Files marked for deletion - files to delete (Delete comment)
   const files = filesToEvaluate.map((file) => file.flagged);
 
   class AbstractUser {}
@@ -18,30 +18,30 @@
   class UserImplementation {}
   interface IUser {}
 
-  // Mejor
+  // Better
   class User {}
   interface User {}
 
-  // Todo: Tarea (Eliminar comentario)
+  // All: Task (Remove comment)
 
-  // día de hoy - today (Eliminar comentario)
+  // today - today (Remove comment)
   const today = new Date();
 
-  // días transcurridos - elapsed time in days (Eliminar comentario)
+  // elapsed days - elapsed time in days (Remove comment)
   const elapsedTimeInDays: number = 23;
 
-  // número de archivos en un directorio - number of files in directory (Eliminar comentario)
+  // number of files in a directory - number of files in directory (Remove comment)
   const numberOfFilesInDirectory = 33;
 
-  // primer nombre - first name (Eliminar comentario)
+  // first name - first name (Remove comment)
   const firstName = "Fernando";
 
-  // primer apellido - last name (Eliminar comentario)
+  // first surname - last name (Remove comment)
   const lastName = "Herrera";
 
-  // días desde la última modificación - days since modification (Eliminar comentario)
+  // days since last modification - days since modification (Remove comment)
   const daysSinceModification = 12;
 
-  // cantidad máxima de clases por estudiante - max classes per student (Eliminar comentario)
+  // max number of classes per student - max classes per student (Remove comment)
   const maxClassesPerStudent = 6;
 })();

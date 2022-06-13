@@ -12,38 +12,38 @@
     { id: 3, email: "melissa@google.com" },
   ];
 
-  // Listado de emails de los usuarios (Eliminar comentario)
+  // List of user emails (Delete comment)
   const userEmails = users.map((user) => user.email);
 
-  // Variables booleanas de un video juego (Eliminar comentario)
+  // Boolean variables of a video game (Delete comment)
   const canJump = false;
   const canRun = true;
   const hasItems = false;
   const isLoading = true;
 
-  // tiempo inicial (Eliminar comentario)
+  // initial time (Remove comment)
   const startTime = new Date().getTime();
 
-  // Tiempo al final (Eliminar comentario)
+  // Time at end (Remove comment)
   const endTime = new Date().getTime() - startTime;
 
-  // Funciones
-  // Obtiene los libros (Eliminar comentario)
+  // Functions
+  // Get the books (Remove comment)
   function getBooks() {
     throw new Error("Function not implemented.");
   }
 
-  // obtiene libros desde un URL (Eliminar comentario)
+  // get books from a URL (Remove comment)
   function getBooksByUrl(url: string) {
     throw new Error("Function not implemented.");
   }
 
-  // obtiene el área de un cuadrado basado en sus lados (Eliminar comentario)
+  // get the area of a square based on its sides (Remove comment)
   function getSquareArea(side: number) {
     throw new Error("Function not implemented.");
   }
 
-  // imprime el trabajo (Eliminar comentario)
+  // print the job (Uncomment)
   function printJob() {
     throw new Error("Function not implemented.");
   }

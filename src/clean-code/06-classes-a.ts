@@ -47,9 +47,9 @@
   const userSettings = new UserSettings(
     "/usr/home",
     "/home",
-    "fernando@google.com",
+    "kevin@google.com",
     "Admin",
-    "Fernando",
+    "kevin",
     "M",
     new Date("1985-10-21")
   );

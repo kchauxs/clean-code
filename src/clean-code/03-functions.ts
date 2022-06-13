@@ -1,20 +1,20 @@
 (() => {
-  // función para obtener información de una película por Id (Eliminar comentario)
+  // function to get information about a movie by Id (Remove comment)
   function getMovieById(movieId: string) {
     console.log({ movieId });
   }
 
-  // función para obtener información de los actores de una película - Actors o Cast // id = movieId getMovieCast (Eliminar comentario)
+  // function to get information about the actors of a movie - Actors or Cast // id = movieId getMovieCast (Remove comment)
   function getMovieCastById(id: string) {
     console.log({ id });
   }
 
-  // funcion para obtener el bio del actor por el id (Eliminar comentario)
+  // function to get the actor's bio by id (Remove comment)
   function getUsuario(ActorId: string) {
     console.log({ ActorId });
   }
 
-  // Crear una película (Eliminar comentario)
+  // Create a movie (Remove comment)
   interface Movie {
     cast: string[];
     description: string;
@@ -26,11 +26,9 @@
     console.log({ title, description, rating, cast });
   }
 
-  // Crea un nuevo actor (Eliminar comentario)
+  // Create a new actor (Remove comment)
   function createActor(fullName: string, birthdate: Date): boolean {
-    // tarea asincrona para verificar nombre (Eliminar comentario)
-    // ..
-    // ..
+    // async task to check name (Uncomment)
     if (fullName === "Kevin") return false;
 
     console.log("Create actor", birthdate);
