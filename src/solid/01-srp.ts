@@ -20,8 +20,6 @@
     }
   }
 
-  // Usualmente, esto es una clase para controlar la vista que es desplegada al usuario
-  // Recuerden que podemos tener muchas vistas que realicen este mismo trabajo.
   class ProductBloc {
     constructor(
       private productService: ProductService,

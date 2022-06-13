@@ -1,6 +1,6 @@
 (() => {
-  // Aplicando el principio de responsabilidad única
-  // Prioriza la composición frente a la herencia
+  // Applying the single responsibility principle
+  // Prioritize composition over inheritance
 
   type Gender = "M" | "F";
 
@@ -57,7 +57,6 @@
     }
   }
 
-  // Nuevo User Settings
   interface UserSettingsProps {
     birthdate: Date;
     email: string;

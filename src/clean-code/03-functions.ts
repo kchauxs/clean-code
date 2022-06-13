@@ -33,7 +33,7 @@
     // ..
     if (fullName === "Kevin") return false;
 
-    console.log("Crear actor", birthdate);
+    console.log("Create actor", birthdate);
     return true;
   }
 

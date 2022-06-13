@@ -1,8 +1,8 @@
 (() => {
-  // No aplicando el principio de responsabilidad única
+  // Not applying the single responsibility principle
   type Gender = "M" | "F";
 
-  // Alto Acoplamiento
+  // High Coupling
 
   class Person {
     constructor(
@@ -47,11 +47,11 @@
   const userSettings = new UserSettings(
     "/urs/home",
     "/development",
-    "fernando@google.com",
+    "kevin@google.com",
     "F",
-    "Fernando",
+    "kevin",
     "M",
-    new Date("1985-10-21")
+    new Date("1995-09-00")
   );
 
   console.log({ userSettings, credentials: userSettings.checkCredentials() });
